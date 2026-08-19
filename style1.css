@@ -1,0 +1,50 @@
+/* Remove default margin */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    height: 100px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Main body */
+.main {
+    display: flex;
+    min-height: 500px;
+}
+
+/* Left column */
+.left {
+    width: 20%;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* Center column */
+.center {
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+}
+
+/* Right column */
+.right {
+    width: 20%;
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+/* Footer */
+.footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
